@@ -16,3 +16,13 @@ students1 = {
 }
 for student in students1:
     print(student, students1[student], sep=", ")
+
+students2 = [
+    {"name":  "Hermione", "house": "Gryffindor", "patronus": "Otter"},
+    {"name":  "Harry", "house": "Gryffindor", "patronus": "Stag"},
+    {"name":  "Ron", "house": "Gryffindor", "patronus": "Jack Russell Terry"},
+    {"name":  "Draco", "house": "Slytherin", "patronus": None},
+]
+
+for student in students2:
+    print(student["name"], student["house"], student["patronus"], sep=", ")
